@@ -1,37 +1,76 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8"/>
     <title>Chat Room</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
-    <textarea id="chat-log" cols="100" rows="20"></textarea><br/>
-    <input id="chat-message-input" type="text" size="100"/><br/>
-    <input id="chat-message-submit" type="button" value="Send"/>
-    <div>
-<!--<form method="POST" action = "{% url 'health_aspect' %}">
-{%csrf_token%}
-	<input type = "text" name="height" placeholder="Enter Height in centimeter" />
-	<input type = "text" name="weight" placeholder="Enter Weight in kg" />
-	<input type = "text" name="age" placeholder="Enter Age" />
-	<input type = "text" name="sex" placeholder="Enter Gender" />
-	<input type = "text" name="waist" placeholder="Enter Waist in centimeter" />
-	<input type = "text" name="hip" placeholder="Enter Hip in centimeter" />
-	<input type="submit" value = "Submit" name = "Submit">
-</form>-->
-    </div>
+    <center>
+        <div class="chatbot">
+            <div class="chatbot-title">HEXA</div>
+            <div>
+                <!--<textarea id="chat-log" rows="60" cols="91"></textarea><br/>-->
+                <div id="same" class = "chat-log">
+                    <ul id="same-list"></ul>
+                </div>
+            </div>
+            <div class="chatbot-message">
+                <input id="chat-message-input" type="text" size="100"/><br/>
+                <input id="chat-message-submit" type="button" value="Send"/>
+            </div>            
+        </div>
+    </center>
 </body>
 <script>
     var roomName = "{{ room_name|escapejs }}";
-
+    var count = 0;
     var chatSocket = new WebSocket(
         'ws://' + window.location.host +
         '/ws/chat/' + roomName + '/');
 
     chatSocket.onmessage = function(e) {
+
         var data = JSON.parse(e.data);
         var message = data['message'];
-        document.querySelector('#chat-log').value += (message + '\n');
+        console.log(typeof data['message']);
+        var node = document.createElement("LI");
+        var textnode = document.createTextNode(message);
+        var img = document.createElement("img"); 
+                if(count%2 == 1)
+        {
+            img.src= "https://img.icons8.com/ultraviolet/80/000000/bot.png";
+            img.width=30;
+            img.height=30;
+            node.appendChild(img);
+            node.appendChild(textnode);
+            document.getElementById("same-list").appendChild(node).style.cssText = "margin: auto; float:left; text-align: left; max-width:16vw; min-width: 15vw; border: 1px solid black; border-radius: 25px; padding: 10px; margin: 5px; background: #e5e5e5;";
+        }
+        else
+        {
+            img.src= "https://img.icons8.com/bubbles/50/000000/user.png";
+            img.width=40;
+            img.height=40;
+            node.appendChild(textnode);
+            node.appendChild(img);            
+            document.getElementById("same-list").appendChild(node).style.cssText = "margin: auto; float: right; text-align: right; max-width:16vw; min-width: 15vw; border: 1px solid black; radius:2px; border-radius: 25px; padding: 10px; margin: 5px;";
+        }
+        count++;
+        var node = document.createElement("BR");
+        var textnode = document.createTextNode("\n");
+        node.appendChild(textnode);
+        document.getElementById("same-list").appendChild(node);
+        var node = document.createElement("BR");
+        var textnode = document.createTextNode("\n");
+        node.appendChild(textnode);
+        document.getElementById("same-list").appendChild(node);
+
+        // document.getElementById("same").innerHTML += ("<p class='user_output'>" +message+"first"+ "</p><br/>");
+
+        //document.getElementById("output").innerHTML += message; 
+        //document.querySelector('#chat-log').value += (message + '\n');
     };
 
     chatSocket.onclose = function(e) {
@@ -47,12 +86,57 @@
 
     document.querySelector('#chat-message-submit').onclick = function(e) {
         var messageInputDom = document.querySelector('#chat-message-input');
-        var message = messageInputDom.value;
+        var user_message = messageInputDom.value;
         chatSocket.send(JSON.stringify({
-            'message': message
+            'message': user_message
         }));
-
+        // document.getElementById("same").innerHTML = ("<p class='user_input'>" +user_message+ "</p>");
         messageInputDom.value = '';
     };
 </script>
 </html>
+
+<style type="text/css">
+    body{
+        /*background: lightblue;*/
+    }
+
+    .chatbot-title{
+        background: darkblue;
+        width: 25vw;
+        color: white;
+        height: 5vh;
+        margin: auto;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .chatbot{
+        position:relative;
+        top: 10vh;
+        height: 50vh;
+    }
+
+    .chatbot-message #chat-message-input{
+        background: lightgrey;
+        width: 25vw;
+        height: 8vh;
+    }
+
+    .chat-log{
+        position: inherit;
+        top: 10px;
+        height: 60vh;
+        width: 25vw;
+        border: 1px solid black;
+        z-index: -1;
+    }
+
+    #same-list{
+        list-style-type: none;
+    }
+
+    #same{
+        overflow-y: auto;
+    }
+</style>

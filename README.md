@@ -14,3 +14,7 @@ channels
 googletrans
 SpeechRecognition
 gtts
+
+//django kia toh
+chatterbot
+chatterbot-corpus

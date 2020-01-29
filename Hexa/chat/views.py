@@ -40,10 +40,10 @@ def health_aspect(request):
             if whr<0.80: ans_whr+="\nYou are at low health risk"
             elif whr>=0.80 and whr<=0.84: ans_whr+="\nYou are at moderate health risk"
             elif whr>=0.85: ans_whr+="\nYou are at high health risk"
-            else:
-                if whr<0.90: ans_whr+="\nYou are at low health risk"
-                elif whr>=0.90 and whr<=0.99: ans_whr+="\nYou are at moderate health risk"
-                elif whr>=1.00: ans_whr+="\nYou are at high health risk"
+        else:
+            if whr<0.90: ans_whr+="\nYou are at low health risk"
+            elif whr>=0.90 and whr<=0.99: ans_whr+="\nYou are at moderate health risk"
+            elif whr>=1.00: ans_whr+="\nYou are at high health risk"
         context = {"ans_bmi":ans_bmi, "bmi":bmi, "bmr":bmr, "whr":whr, "ans_whr":ans_whr}
         return render(request, 'chat/bmi.html', context)
         
