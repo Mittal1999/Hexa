@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/mittal/sih server/first_aid/model.tflearn"
+all_model_checkpoint_paths: "/home/mittal/sih server/first_aid/model.tflearn"
