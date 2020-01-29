@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/mittal/sih server/HEXA/Hexa/model.tflearn"
+all_model_checkpoint_paths: "/home/mittal/sih server/HEXA/Hexa/model.tflearn"

@@ -8,6 +8,18 @@
     <textarea id="chat-log" cols="100" rows="20"></textarea><br/>
     <input id="chat-message-input" type="text" size="100"/><br/>
     <input id="chat-message-submit" type="button" value="Send"/>
+    <div>
+<!--<form method="POST" action = "{% url 'health_aspect' %}">
+{%csrf_token%}
+	<input type = "text" name="height" placeholder="Enter Height in centimeter" />
+	<input type = "text" name="weight" placeholder="Enter Weight in kg" />
+	<input type = "text" name="age" placeholder="Enter Age" />
+	<input type = "text" name="sex" placeholder="Enter Gender" />
+	<input type = "text" name="waist" placeholder="Enter Waist in centimeter" />
+	<input type = "text" name="hip" placeholder="Enter Hip in centimeter" />
+	<input type="submit" value = "Submit" name = "Submit">
+</form>-->
+    </div>
 </body>
 <script>
     var roomName = "{{ room_name|escapejs }}";
