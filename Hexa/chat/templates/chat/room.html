@@ -18,7 +18,14 @@
                 </div>
             </div>
             <div class="chatbot-message">
+
+                <div>
+                    <input type="button" name="First Aid" value="First Aid" id="run_first_aid">
+                    <input type="button" name="BMI" value="BMI" id="run_bmi">
+                </div>
+
                 <input id="chat-message-input" type="text" size="100"/><br/>
+                
                 <input id="chat-message-submit" type="button" value="Send"/>
             </div>            
         </div>
@@ -27,6 +34,9 @@
 <script>
     var roomName = "{{ room_name|escapejs }}";
     var count = 0;
+    var button_message = '';
+    var height = '';
+    var weight = '';
     var chatSocket = new WebSocket(
         'ws://' + window.location.host +
         '/ws/chat/' + roomName + '/');
@@ -39,7 +49,7 @@
         var node = document.createElement("LI");
         var textnode = document.createTextNode(message);
         var img = document.createElement("img"); 
-                if(count%2 == 1)
+        if(count%2 == 1)
         {
             img.src= "https://img.icons8.com/ultraviolet/80/000000/bot.png";
             img.width=30;
@@ -47,6 +57,7 @@
             node.appendChild(img);
             node.appendChild(textnode);
             document.getElementById("same-list").appendChild(node).style.cssText = "margin: auto; float:left; text-align: left; max-width:16vw; min-width: 15vw; border: 1px solid black; border-radius: 25px; padding: 10px; margin: 5px; background: #e5e5e5;";
+
         }
         else
         {
@@ -66,6 +77,7 @@
         var textnode = document.createTextNode("\n");
         node.appendChild(textnode);
         document.getElementById("same-list").appendChild(node);
+
 
         // document.getElementById("same").innerHTML += ("<p class='user_output'>" +message+"first"+ "</p><br/>");
 
@@ -88,10 +100,34 @@
         var messageInputDom = document.querySelector('#chat-message-input');
         var user_message = messageInputDom.value;
         chatSocket.send(JSON.stringify({
-            'message': user_message
+            'message': [user_message,button_message]
         }));
-        // document.getElementById("same").innerHTML = ("<p class='user_input'>" +user_message+ "</p>");
         messageInputDom.value = '';
+    };
+
+    document.querySelector('#run_first_aid').onclick = function(e) {
+        document.getElementById("chat-message-input").style.cssText ="visibility: visible;";
+        document.getElementById("chat-message-submit").style.cssText ="visibility: visible;";
+        var buttonAction = document.querySelector('#run_first_aid');
+        button_message = buttonAction.value;
+        // document.getElementById("printHead").innerHTML += button_message;
+        // document.getElementById("same").innerHTML = ("<p class='user_input'>" +user_message+ "</p>");
+    };
+
+    document.querySelector('#run_bmi').onclick = function(e) {
+        count++;
+        document.getElementById("chat-message-input").style.cssText ="visibility: visible;";
+        document.getElementById("chat-message-submit").style.cssText ="visibility: visible;";
+        var buttonAction = document.querySelector('#run_bmi');
+        button_message = buttonAction.value;
+        // document.getElementById("printHead").innerHTML += button_message;
+        var messageInputDom = document.querySelector('#chat-message-input');
+        var user_message = messageInputDom.value;
+        chatSocket.send(JSON.stringify({
+            'message': [user_message,button_message]
+        }));
+        messageInputDom.value = '';
+        // document.getElementById("same").innerHTML = ("<p class='user_input'>" +user_message+ "</p>");
     };
 </script>
 </html>
@@ -121,6 +157,7 @@
         background: lightgrey;
         width: 25vw;
         height: 8vh;
+        visibility: hidden;
     }
 
     .chat-log{
@@ -130,6 +167,7 @@
         width: 25vw;
         border: 1px solid black;
         z-index: -1;
+        overflow: scroll;
     }
 
     #same-list{
@@ -138,5 +176,9 @@
 
     #same{
         overflow-y: auto;
+    }
+
+    #chat-message-submit{
+        visibility: hidden;
     }
 </style>

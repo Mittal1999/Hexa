@@ -1,21 +1,18 @@
 import math,os
 
-def bmi():
-	height = float(input("Enter your height in meters: "))
-	weight = float(input("Enter your weight in kg: "))
-	bmi = weight/(height**2) 
-	print("Your BMI is: {0} and you are ".format(bmi), end='')
-	if ( bmi < 16):
-		print("severely underweight")
-	elif ( bmi >= 16 and bmi < 18.5):
-		print("underweight")
+def bmi(height, weight):
+	bmi = float(weight)/(float(height)**2) 
+	# print("Your BMI is: {0} and you are ".format(bmi), end='')
+	if ( bmi < 16.0):
+		return ["severely underweight", str(bmi)]
+	elif ( bmi >= 16.0 and bmi < 18.5):
+		return ["underweight", str(bmi)]
 	elif ( bmi >= 18.5 and bmi < 25):
-		print("Healthy")
+		return ["Healthy", str(bmi)]
 	elif ( bmi >= 25 and bmi < 30):
-		print("overweight")
+		return ["overweight", str(bmi)]
 	elif ( bmi >=30):
-		print("severely overweight")
-	
+		return ["severely overweight", str(bmi)]
 
 
 
