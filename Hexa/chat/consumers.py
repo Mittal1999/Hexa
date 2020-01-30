@@ -19,6 +19,7 @@ class ChatConsumer(WebsocketConsumer):
     waist = 0
     hip = 0
     age = 0
+    lifestyle = ""
 
     def connect(self):
         self.accept()
@@ -208,6 +209,79 @@ class ChatConsumer(WebsocketConsumer):
                 reply = bmiwhr.basal_metabolic_rate(ChatConsumer.height, ChatConsumer.weight, ChatConsumer.age, ChatConsumer.sex)
                 self.send(text_data=json.dumps({
                     'message': "Your Basal Metabolic Rate: "+reply+"\n"
+                }))
+
+        # CAL
+        elif message1 == "Calorie Counter":
+            if (ChatConsumer.height !=0 and ChatConsumer.weight !=0 and ChatConsumer.sex != "" and ChatConsumer.age !=0 and ChatConsumer.lifestyle !=""):
+                ChatConsumer.height = 0
+                ChatConsumer.weight = 0
+                ChatConsumer.age = 0
+                ChatConsumer.sex = ""
+                ChatConsumer.lifestyle = ""
+            reply = ""
+            if message != "":
+                if ChatConsumer.height == 0:
+                    ChatConsumer.height = message
+                    reply = ChatConsumer.height
+                    self.send(text_data=json.dumps({
+                        'message': reply+"\n"
+                    }))
+                elif ChatConsumer.weight == 0:
+                    ChatConsumer.weight = message
+                    reply = ChatConsumer.weight
+                    self.send(text_data=json.dumps({
+                        'message': reply+"\n"
+                    }))
+                elif ChatConsumer.age == 0:
+                    ChatConsumer.age = message
+                    reply = ChatConsumer.age
+                    self.send(text_data=json.dumps({
+                        'message': reply+"\n"
+                    }))
+                elif ChatConsumer.sex == "":
+                    ChatConsumer.sex = message
+                    reply = ChatConsumer.sex
+                    self.send(text_data=json.dumps({
+                        'message': reply+"\n"
+                    }))
+                else:
+                    ChatConsumer.lifestyle = message
+                    reply = ChatConsumer.lifestyle
+                    self.send(text_data=json.dumps({
+                        'message': reply+"\n"
+                    }))
+                
+            if(ChatConsumer.height == 0):
+                reply = "Enter your Height(in cm): "
+                self.send(text_data=json.dumps({
+                    'message': reply+"\n"
+                }))
+                # accept
+            elif(ChatConsumer.weight == 0):
+                reply = "Enter your Weight(in kg): "
+                self.send(text_data=json.dumps({
+                    'message': reply+"\n"
+                }))
+            elif(ChatConsumer.age == 0):
+                reply = "Enter your Age(in years): "
+                self.send(text_data=json.dumps({
+                    'message': reply+"\n"
+                }))
+            elif(ChatConsumer.sex == ""):
+                reply = "Enter your Sex(in male/female): "
+                self.send(text_data=json.dumps({
+                    'message': reply+"\n"
+                }))
+            elif(ChatConsumer.lifestyle == ""):
+                reply = "Types of lifestyle:\n1. 'sedentary': little or no exercise\n2. 'lightly active': light exercise/sports 1-3 days/week\n3. 'moderatetely active': moderate exercise/sports 3-5 days/week\n4. 'very active': hard exercise/sports 6-7 days a week\n5. 'extra active': very hard exercise/sports & physical job or 2x training"
+                self.send(text_data=json.dumps({
+                    'message': reply+"\n"
+                }))
+            else:
+                reply = bmiwhr.calorie_needs(ChatConsumer.height, ChatConsumer.weight, ChatConsumer.age, ChatConsumer.sex,ChatConsumer.lifestyle)
+                self.send(text_data=json.dumps({
+                    'message': "The total number of calories required to maintain current weight: "+reply[0]+".                 To Lose Weight: Take "+reply[1]+" to "+reply[2]+" cals.        To Gain Weight: Take "+reply[3]+" cals."
                 }))
 
 
