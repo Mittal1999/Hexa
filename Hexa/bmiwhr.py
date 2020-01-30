@@ -16,16 +16,12 @@ def bmi(height, weight):
 
 
 
-def basal_metabolic_rate():		#to find out calorie needs
-	height = float(input("Enter height in centimeters: "))
-	weight = float(input("Enter weight in kg: "))
-	age = float(input("Enter your age: "))
-	sex = input("Enter your sex: ")
+def basal_metabolic_rate(height, weight, age, sex):		#to find out calorie needs
 	if sex=="female":
-		bmr = round((655.0+(4.35*weight)+(4.7*height)-(4.7*age)),2)
+		bmr = round((655.0+(4.35*float(weight))+(4.7*float(height))-(4.7*int(age))),2)
 	else:
-		bmr = round((66.0+( 6.23*weight)+( 12.7*height)-(6.8*age)),2)
-	print("\nYour Basal Metabolic Rate is "+str(bmr)+" cal per day")
+		bmr = round((66.0+( 6.23*float(weight))+( 12.7*float(height))-(6.8*int(age))),2)
+	return str(bmr)
 	
 
 
@@ -57,20 +53,23 @@ def calorie_needs():									#Harris Benedict Formula
 	
 
 
-def waist_to_hip_ratio():
-	waist = float(input("Enter your waist measurement in cm: "))
-	hip = float(input("Enter your hip measurement in cm: "))
-	sex = input("Enter your sex: ")
-	whr=round(float(waist)/hip,3)
+def waist_to_hip_ratio(waist, hip, sex):
+	whr=round(float(waist)/float(hip),3)
 	print("Your waist to hip ratio is "+str(whr))
 	if sex=="female":
-		if whr<0.80: print("\nYou are at low health risk")
-		elif whr>=0.80 and whr<=0.84: print("\nYou are at moderate health risk")
-		elif whr>=0.85: print("\nYou are at high health risk")
+		if whr<0.80: 
+			return ["You are at low health risk", str(whr)]
+		elif whr>=0.80 and whr<=0.84: 
+			return ["You are at moderate health risk", str(whr)]
+		elif whr>=0.85: 
+			return ["You are at high health risk", str(whr)]
 	else:
-		if whr<0.90: print("\nYou are at low health risk")
-		elif whr>=0.90 and whr<=0.99: print("\nYou are at moderate health risk")
-		elif whr>=1.00: print("\nYou are at high health risk")
+		if whr<0.90: 
+			return ["You are at low health risk", str(whr)]
+		elif whr>=0.90 and whr<=0.99: 
+			return ["You are at moderate health risk", str(whr)]
+		elif whr>=1.00: 
+			return ["You are at high health risk", str(whr)]
 
 
 

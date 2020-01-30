@@ -1,0 +1,1075 @@
+Source,Target
+depression mental,feeling suicidal
+depression mental,suicidal
+depression mental,feeling hopeless
+depression mental,weepiness
+depression mental,sleeplessness
+depression mental,irritable mood
+depression mental,blackout
+depression mental,depressed
+depression mental,hallucinations
+depression mental,worry
+depression mental,agitation
+depression mental,intoxication
+depression mental,increased energy
+depression mental,unable to concentrate
+depression mental,homelessness
+neoplasm metastasis,neck pain
+neoplasm metastasis,pain
+neoplasm metastasis,abdominal pain
+hypothyroidism,shortness of breath
+hypothyroidism,drowsiness
+hypothyroidism,sleepy
+hypothyroidism,hypotension
+hypothyroidism,weight gain
+hypothyroidism,tired
+hypothyroidism,agitation
+hypothyroidism,vomiting
+hypothyroidism,numbness
+malignant neoplasm of prostate,decreased body weight
+malignant neoplasm of prostate,pain during urination
+malignant neoplasm of prostate,loss of bladder control
+malignant neoplasm of prostate, urinating
+anemia,chill
+anemia,back pain
+anemia,dizziness
+anemia,shortness of breath
+anemia,pain
+anemia,swelling
+anemia,rapid heart beat
+anemia,pale skin
+cholelithiasis,vomiting
+cholelithiasis,nausea
+cholelithiasis,abdominal pain
+cholelithiasis,pain
+cholelithiasis,sore to touch
+cholelithiasis,palpitation
+cholelithiasis,back pain
+cholelithiasis,shoulder pain
+cirrhosis,abdominal pain
+cirrhosis,sore to touch
+cirrhosis,bleeding of vagina
+cirrhosis,loss of appetite
+cirrhosis,bleeding of nose
+cirrhosis,jaundice
+cirrhosis,weight loss
+cirrhosis,itchy skin
+cirrhosis,weakness
+pneumothorax,cough
+pneumothorax,agitation
+pneumothorax,shortness of breath
+pneumothorax,chest pain
+pneumothorax,increased heart rate
+pneumothorax,rapid breathing
+pneumothorax,dizziness
+pneumothorax,loss of conciousness
+migraine disorders,vomiting
+migraine disorders,dizziness
+migraine disorders,numbness
+migraine disorders,nausea
+migraine disorders,fever
+migraine disorders,pale skin
+migraine disorders,loss of appetite
+migraine disorders,feeling warm
+migraine disorders,headache
+migraine disorders,feeling cold
+pancreatitis,vomiting
+pancreatitis,abdominal pain
+pancreatitis,nausea
+pancreatitis,pain
+pancreatitis,stool color yellow
+pancreatitis,sore to touch
+pancreatitis,fever
+pancreatitis,rapid pulse
+HIV,fever
+HIV,night sweating
+HIV,cough
+HIV,decreased body weight
+HIV,chill
+HIV,cough
+HIV,feeling suicidal
+HIV,headache
+HIV,tiredness
+HIV,rash
+HIV,muscle pain
+HIV,joint pain
+bipolar disorder,feeling suicidal
+bipolar disorder,increased energy
+bipolar disorder,suicidal
+bipolar disorder,irritable mood
+bipolar disorder,agitation
+bipolar disorder,weepiness
+bipolar disorder,feeling hopeless
+bipolar disorder,worry
+bipolar disorder,sleeplessness
+bipolar disorder,hypersomnia
+bipolar disorder,hallucinations
+bipolar disorder,intoxication
+bipolar disorder,homelessness
+bipolar disorder,blackout
+bipolar disorder,exhaustion
+hypoglycemia,unresponsiveness
+hypoglycemia,unconscious state
+hypoglycemia,shotness of breath
+hypoglycemia,hypotension
+hypoglycemia,dizziness
+hypoglycemia,anxiety
+hypoglycemia,hunger
+hepatitis C,feeling suicidal
+hepatitis C,cough
+hepatitis C,ache
+hepatitis C,heavy feeling
+hepatitis C,chill
+hepatitis C,dark urine
+hepatitis C,feeling tired
+hepatitis C,joint pain
+hepatitis C,sore muscles
+hepatitis C,fever
+hepatitis C,nausea
+hepatitis C,stomach pain
+hepatitis C,itchy skin
+malignant tumor of colon,constipation
+malignant tumor of colon,discomfort
+malignant tumor of colon,abdominal pain
+malignant tumor of colon,dizzy 
+malignant tumor of colon,shooting pain
+malignant tumor of colon,vomiting
+malignant tumor of colon,nausea
+malignant tumor of colon,weakness 
+malignant tumor of colon,weight loss
+deglutition disorder,painful swallowing
+deglutition disorder,hoarseness
+deglutition disorder,spasm
+deglutition disorder,decreased body weight
+deglutition disorder,stiffness
+deglutition disorder,side pain
+deglutition disorder,hoarseness
+deglutition disorder,weight loss
+deglutition disorder,heart burn
+biliary calculus,vomiting
+biliary calculus,nausea
+biliary calculus,abdominal pain
+biliary calculus,pain
+biliary calculus,sore to touch
+biliary calculus,palpitation
+biliary calculus,pain while urinating
+primary malignant neoplasm,pain
+primary malignant neoplasm,decreased body weight
+primary malignant neoplasm,hoarseness
+primary malignant neoplasm,anemia
+primary malignant neoplasm,shortness of breath
+primary malignant neoplasm,weight loss
+lymphoma,fever
+lymphoma,decreased body weight
+lymphoma,tired
+lymphoma,itching
+confusion,seizure
+confusion,lethargy
+confusion,unconscious state
+confusion,agitation
+confusion,sleepy
+confusion,dizziness
+confusion,headache
+confusion,lightheadedness
+confusion,unresponsiveness
+obesity morbid,shortness of breath
+obesity morbid,cough
+obesity morbid,unhappy
+obesity morbid,shortness of breath
+obesity morbid,fever
+obesity morbid,excessive fat
+arthritis,pain
+arthritis,sleeplessness
+arthritis,swelling
+arthritis,unsteadiness
+arthritis,shortness of breath
+arthritis,stiffness
+arthritis,redness
+accident cerebrovascular,unresponsiveness
+accident cerebrovascular,seizure
+accident cerebrovascular,numbness
+accident cerebrovascular,dizziness
+accident cerebrovascular,loss of balance
+accident cerebrovascular,blurred vision
+mitral valve insufficiency,shortness of breath
+mitral valve insufficiency,palpitation
+mitral valve insufficiency,vomiting
+mitral valve insufficiency,pain
+mitral valve insufficiency,chest discomfort
+edema pulmonary,shortness of breath
+edema pulmonary,sweating
+edema pulmonary,chest discomfort
+edema pulmonary,sinus
+edema pulmonary,chest pain
+edema pulmonary,hypotension
+malignant neoplasms,pain
+malignant neoplasms,decreased body weight
+malignant neoplasms,hoarseness
+malignant neoplasms,anemia
+malignant neoplasms,shortness of breath
+malignant neoplasms,weight loss
+hyperglycemia,sore to touch
+hyperglycemia,feeling strange
+hyperglycemia,decreased body weight
+hyperglycemia,depressed
+hyperglycemia,seizure
+hyperglycemia,increased thirst 
+hyperglycemia,headache
+hyperglycemia,blurred vision
+hyperglycemia,weight loss
+epilepsy,seizure
+epilepsy,drowsiness
+epilepsy,unresponsiveness
+epilepsy,sleepy
+epilepsy,lethargy
+epilepsy,loss of conciousness
+Pneumocystis carinii pneumonia,yellow sputum
+Pneumocystis carinii pneumonia,chill
+Pneumocystis carinii pneumonia,decreased body weight
+Pneumocystis carinii pneumonia,cough
+Pneumocystis carinii pneumonia,neck stiffness
+Pneumocystis carinii pneumonia,cough
+Pneumocystis carinii pneumonia,non-cough
+Pneumocystis carinii pneumonia,headache
+pneumonia aspiration,fever
+pneumonia aspiration,unresponsiveness
+pneumonia aspiration,extreme exhaustion
+pneumonia aspiration,seizure
+pneumonia aspiration,cough
+pneumonia aspiration,pain
+pneumonia aspiration,abdominal pain
+pneumonia aspiration,shotness of breath
+pneumonia aspiration,chest pain
+coronary arteriosclerosis,chest pain
+coronary arteriosclerosis,shortness of breath
+coronary arteriosclerosis,sweating
+coronary arteriosclerosis,pressure in chest
+coronary arteriosclerosis,chest tightness
+coronary arteriosclerosis,muscle weakness
+infection urinary tract,fever
+infection urinary tract,lethargy
+infection urinary tract,shotness of breath
+infection urinary tract,fever
+infection urinary tract,chills
+infection urinary tract,abdominal pain
+neuropathy,numbness
+neuropathy,nausea and vomiting
+neuropathy,pain
+neuropathy,sharp pain
+neuropathy,weakness 
+thrombocytopaenia,fever
+thrombocytopaenia,hypotension
+adenocarcinoma,decreased body weight
+adenocarcinoma,constipation
+adenocarcinoma,pain
+adenocarcinoma,abdominal pain
+incontinence,seizure
+incontinence,unconscious state
+incontinence,moody
+incontinence,spasm
+incontinence,unhappy
+incontinence,stiffness
+incontinence,unresponsiveness
+systemic infection,fever
+systemic infection,shotness of breath
+systemic infection,hypotension
+systemic infection,chill
+systemic infection,lethargy
+systemic infection,unresponsiveness
+ileus,abdominal tenderness
+ileus,nausea
+ileus,sore to touch
+ileus,constipation
+ileus,abdominal pain
+bronchitis,cough
+bronchitis,shortness of breath
+bronchitis,chest tightness
+bronchitis,fever
+bronchitis,throat sore
+bronchitis,cough
+bronchitis,night sweating
+bronchitis,shortness of breath
+bronchitis,cough
+bronchitis,chill
+bronchitis,decreased body weight
+hiv infections,fever
+hiv infections,night sweating
+hiv infections,cough
+hiv infections,decreased body weight
+hiv infections,chill
+hiv infections,cough
+hiv infections,feeling suicidal
+paroxysmal dyspnea,shortness of breath
+paroxysmal dyspnea,chest pain
+paroxysmal dyspnea,palpitation
+paroxysmal dyspnea,sweating
+paroxysmal dyspnea,weight gain
+paroxysmal dyspnea,cough
+chronic alcoholic intoxication,suicidal
+chronic alcoholic intoxication,irritable mood
+chronic alcoholic intoxication,feeling hopeless
+chronic alcoholic intoxication,feeling suicidal
+chronic alcoholic intoxication,seizure
+chronic alcoholic intoxication,homelessness
+chronic alcoholic intoxication,sleeplessness
+chronic alcoholic intoxication,unconscious state
+chronic alcoholic intoxication,panic
+chronic alcoholic intoxication,shortness of breath
+tonic-clonic seizures,drowsiness
+tonic-clonic seizures,rolling of eyes
+tonic-clonic seizures,sleepy
+tonic-clonic seizures,moody
+tonic-clonic seizures,unresponsiveness
+tonic-clonic seizures,headache
+tonic-clonic seizures,spasm
+tonic-clonic seizures,decreased body weight
+diverticulosis,constipation
+diverticulosis,lightheadedness
+diverticulosis,pain
+diverticulosis,nausea
+diverticulosis,feeling suicidal
+diverticulosis,feeling hopeless
+ulcer peptic,abdominal pain
+ulcer peptic,nausea
+ulcer peptic,vomiting
+ulcer peptic,shortness of breath
+ulcer peptic,chest pain
+ulcer peptic,hunger
+ulcer peptic,nervousness
+hemiparesis,seizure
+hemiparesis,abnormal sensation
+hemiparesis,unresponsiveness
+hemiparesis,drowsiness
+hemiparesis,sleepy
+gout,pain
+gout,redness
+gout,swelling
+gout,sore to touch
+neutropenia,night sweating
+neutropenia,chill
+neutropenia,cough
+neutropenia,shotness of breath
+carcinoma,pain
+carcinoma,decreased body weight
+carcinoma,hoarseness
+carcinoma,discomfort
+carcinoma,non-cough
+carcinoma,constipation
+carcinoma,unhappy
+carcinoma,sore to touch
+carcinoma,heartburn
+carcinoma,nausea
+hypertensive disease,chest pain
+hypertensive disease,shortness of breath
+hypertensive disease,dizziness
+hypertensive disease,sweating
+hypertensive disease,palpitation
+hypertensive disease,nausea
+hypertensive disease,chest pressure
+hypertension pulmonary,shortness of breath
+hypertension pulmonary,heavy legs
+hypertension pulmonary,neck stiffness
+hypertension pulmonary,hypotension
+hypertension pulmonary,dizziness
+hypertension pulmonary,swelling
+Alzheimer's disease,agitation
+Alzheimer's disease,cough
+Alzheimer's disease,fever
+tricuspid valve insufficiency,shortness of breath
+tricuspid valve insufficiency,pain
+tricuspid valve insufficiency,vomiting
+tricuspid valve insufficiency,nausea
+tricuspid valve insufficiency,abdominal pain
+tricuspid valve insufficiency,fever
+carcinoma prostate,decreased body weight
+exanthema,fever
+exanthema,redness
+exanthema,headache
+exanthema,swelling
+exanthema,chill
+exanthema,scratch marks
+exanthema,pain
+exanthema,painful swallowing
+acquired immuno-deficiency syndrome,fever
+acquired immuno-deficiency syndrome,night sweating
+acquired immuno-deficiency syndrome,cough
+acquired immuno-deficiency syndrome,decreased body weight
+acquired immuno-deficiency syndrome,chill
+acquired immuno-deficiency syndrome,cough
+acquired immuno-deficiency syndrome,feeling suicidal
+osteoporosis,numbness of hand
+osteoporosis,pain
+osteoporosis,shortness of breath
+osteoporosis,lightheadedness
+hepatitis,abdominal pain
+hepatitis,chill
+hepatitis,shotness of breath
+hepatitis,fever
+hepatitis,vomiting
+dehydration,fever
+dehydration,vomiting
+dehydration,hypotension
+dehydration,nausea
+dehydration,lightheadedness
+dehydration,unwell
+dehydration,lethargy
+dehydration,dizziness
+dehydration,blackout
+lymphatic diseases,pain
+lymphatic diseases,night sweating
+lymphatic diseases,chill
+lymphatic diseases,decreased body weight
+lymphatic diseases,swelling
+lymphatic diseases,fever
+lymphatic diseases,non-cough
+lymphatic diseases,redness
+sickle cell anemia,breakthrough pain
+sickle cell anemia,back pain
+sickle cell anemia,pain
+sickle cell anemia,shortness of breath
+sickle cell anemia,chest pain
+sickle cell anemia,abdominal pain
+sickle cell anemia,headache
+pancytopenia,stool color yellow
+pancytopenia,weakness 
+pancytopenia,pale skin
+pancytopenia,shortness of breath
+coronary heart disease,chest pain
+coronary heart disease,shortness of breath
+coronary heart disease,sweating
+coronary heart disease,pressure in chest
+coronary heart disease,chest tightness
+thrombus,shortness of breath
+thrombus,sore to touch
+thrombus,vomiting
+thrombus,stool color yellow
+colitis,fever
+colitis,vomiting
+colitis,nausea and vomiting
+colitis,pain
+colitis,nausea
+colitis,chill
+colitis,abdominal pain
+schizophrenia,irritable mood
+schizophrenia,agitation
+schizophrenia,suicidal
+schizophrenia,worry
+schizophrenia,hallucinations
+schizophrenia,underweight
+schizophrenia,homelessness
+psychotic disorder,suicidal
+psychotic disorder,feeling suicidal
+psychotic disorder,hallucinations
+psychotic disorder,blackout
+psychotic disorder,feeling hopeless
+psychotic disorder,irritable mood
+psychotic disorder,agitation
+psychotic disorder,weepiness
+psychotic disorder,homelessness
+psychotic disorder,sleeplessness
+psychotic disorder,increased energy
+psychotic disorder,intoxication
+psychotic disorder,worry
+psychotic disorder,depressed
+overload fluid,shortness of breath
+overload fluid,drowsiness
+overload fluid,sleepy
+overload fluid,weight gain
+overload fluid,hypotension
+overload fluid,swelling
+noia,hallucinations
+noia,agitation
+noia,irritable mood
+noia,feeling suicidal
+noia,suicidal
+noia,homelessness
+noia,increased energy
+noia,depressed
+noia,blackout
+encephalopathy,uncoordination
+encephalopathy,drowsiness
+encephalopathy,sleepy
+encephalopathy,unresponsiveness
+deep vein thrombosis,swelling
+deep vein thrombosis,pain
+deep vein thrombosis,shortness of breath
+deep vein thrombosis,hypotension
+deep vein thrombosis,non-cough
+deep vein thrombosis,redness
+personality disorder,feeling hopeless
+personality disorder,irritable mood
+personality disorder,sleeplessness
+personality disorder,agitation
+personality disorder,weepiness
+personality disorder,depressed
+personality disorder,scratch marks
+personality disorder,nausea and vomiting
+personality disorder,extreme exhaustion
+personality disorder,side pain
+personality disorder,worry
+personality disorder,homelessness
+personality disorder,nervousness
+insufficiency renal,shortness of breath
+insufficiency renal,hypotension
+insufficiency renal,swelling
+degenerative polyarthritis,pain
+degenerative polyarthritis,numbness of hand
+degenerative polyarthritis,discomfort
+degenerative polyarthritis,drowsiness
+degenerative polyarthritis,non-cough
+degenerative polyarthritis,stiffness
+osteomyelitis,pain
+osteomyelitis,redness
+osteomyelitis,fever
+osteomyelitis,sore to touch
+osteomyelitis,swelling
+osteomyelitis,foot pain
+osteomyelitis,nausea
+melanoma,fever
+melanoma,pain
+melanoma,mass in breast
+melanoma,vomiting
+melanoma,sores
+melanoma,swelling
+melanoma,redness
+respiratory failure,snore
+respiratory failure,unresponsiveness
+respiratory failure,cough
+respiratory failure,sinus
+respiratory failure,unsteadiness
+respiratory failure,shortness of breath
+respiratory failure,redness
+gastritis,abdominal pain
+gastritis,vomiting
+gastritis,nausea
+gastritis,intoxication
+gastritis,pain
+gastritis,decreased body weight
+gastritis,sore to touch
+gastritis,dizziness
+hemorrhoids,nausea and vomiting
+hemorrhoids,hunger
+hemorrhoids,dizziness
+hemorrhoids,pain
+hemorrhoids,burning sensation
+hemorrhoids,numbness of hand
+hemorrhoids,cough
+delirium,feeling suicidal
+delirium,unresponsiveness
+delirium,worry
+delirium,drowsiness
+delirium,sleepy
+delirium,suicidal
+delirium,fever
+delirium,disturbed sleep
+delirium,restlessness
+candidiasis,throat sore
+candidiasis,decreased body weight
+candidiasis,chill
+candidiasis,headache
+candidiasis,abdominal tenderness
+candidiasis,night sweating
+candidiasis,painful swallowing
+candidiasis,non-cough
+infection,fever
+infection,chill
+infection,swelling
+infection,pain
+infection,cough
+failure kidney,extreme exhaustion
+failure kidney,unresponsiveness
+failure kidney,hypotension
+failure kidney,shortness of breath
+failure heart,shortness of breath
+failure heart,hypotension
+failure heart,weakness
+failure heart,irregular heartbeat
+primary carcinoma of the liver cells,indifferent mood
+primary carcinoma of the liver cells,abdominal pain
+primary carcinoma of the liver cells,decreased body weight
+primary carcinoma of the liver cells,shortness of breath
+primary carcinoma of the liver cells,abdominal pain
+primary carcinoma of the liver cells,nausea
+primary carcinoma of the liver cells,weakness
+primary carcinoma of the liver cells,cough
+kidney failure acute,hypotension
+kidney failure acute,Irregular heartbeat
+kidney failure acute,unresponsiveness
+ischemia,drowsiness
+ischemia,sleepy
+ischemia,chest pain
+ischemia,pressure in chest
+ischemia,chest discomfort
+ischemia,shortness of breath
+ischemia,sinus
+ischemia,sweating
+ischemia,nausea
+ischemia,cold sweating
+failure heart congestive,shortness of breath
+failure heart congestive,cough
+hypercholesterolemia,pain
+hypercholesterolemia,chest pain
+hypercholesterolemia,sweating
+hypercholesterolemia,pressure in chest
+hypercholesterolemia,numbness
+hypercholesterolemia,chest discomfort
+hypercholesterolemia,shortness of breath
+hypercholesterolemia,worry
+sepsis (invertebrate),fever
+sepsis (invertebrate),shotness of breath
+sepsis (invertebrate),hypotension
+sepsis (invertebrate),chill
+sepsis (invertebrate),lethargy
+sepsis (invertebrate),unresponsiveness
+carcinoma of lung,cough
+carcinoma of lung,shortness of breath
+carcinoma of lung,body ache
+carcinoma of lung,night sweating
+carcinoma of lung,agitation
+carcinoma of lung,irritable mood
+benign prostatic hypertrophy,blackout
+benign prostatic hypertrophy,night sweating
+benign prostatic hypertrophy,shotness of breath
+delusion,giddy
+delusion,feeling hopeless
+delusion,agitation
+delusion,irritable mood
+delusion,sleeplessness
+delusion,worry
+delusion,suicidal
+delusion,blackout
+delusion,weepiness
+delusion,irritable mood
+delusion,agitation
+malignant neoplasms,heartburn
+malignant neoplasms,night sweating
+malignant neoplasms,chill
+malignant neoplasms,abdominal pain
+malignant neoplasms,dullness
+malignant neoplasms,shotness of breath
+malignant neoplasms,hypotension
+ketoacidosis diabetic,vomiting
+ketoacidosis diabetic,nausea
+ketoacidosis diabetic,abdominal pain
+ketoacidosis diabetic,feeling strange
+ketoacidosis diabetic,nervousness
+ketoacidosis diabetic,abdominal tenderness
+ketoacidosis diabetic,blurry vision
+ketoacidosis diabetic,seizure
+tonic-clonic epilepsy,drowsiness
+tonic-clonic epilepsy,rolling of eyes
+tonic-clonic epilepsy,sleepy
+tonic-clonic epilepsy,moody
+tonic-clonic epilepsy,unresponsiveness
+tonic-clonic epilepsy,headache
+tonic-clonic epilepsy,spasm
+tonic-clonic epilepsy,decreased body weight
+stenosis aortic valve,chest discomfort
+stenosis aortic valve,chest pain
+stenosis aortic valve,shortness of breath
+stenosis aortic valve,pain
+peripheral vascular disease,shortness of breath
+peripheral vascular disease,pain
+peripheral vascular disease,unresponsiveness
+peripheral vascular disease,sinus
+peripheral vascular disease,sore to touch
+peripheral vascular disease,sleepy
+carcinoma colon,constipation
+carcinoma colon,discomfort
+carcinoma colon,abdominal pain
+carcinoma colon,dizzy spells
+carcinoma colon,shooting pain
+carcinoma colon,vomiting
+carcinoma colon,nausea
+adhesion,pain
+adhesion,vomiting
+adhesion,shortness of breath
+adhesion,decreased body weight
+adhesion,hallucinations
+adhesion,feeling suicidal
+parkinson disease,stiffness
+parkinson disease,agitation
+parkinson disease,unresponsiveness
+parkinson disease,worry
+parkinson disease,drowsiness
+parkinson disease,sleepy
+parkinson disease,night sweating
+dementia,fever
+dementia,unresponsiveness
+dementia,lethargy
+dementia,agitation
+dementia,unconscious state
+dementia,cough
+dementia,pain
+dementia,abdominal tenderness
+chronic kidney failure,vomiting
+chronic kidney failure,nausea
+chronic kidney failure,shortness of breath
+chronic kidney failure,chest tightness
+chronic kidney failure,chill
+chronic kidney failure,fever
+chronic kidney failure,swelling
+chronic kidney failure,unresponsiveness
+chronic kidney failure,yellow sputum
+cardiomyopathy,shortness of breath
+cardiomyopathy,palpitation
+cardiomyopathy,chest pain
+cardiomyopathy,yellow sputum
+cardiomyopathy,weight gain
+cholecystitis,nausea
+cholecystitis,abdominal pain
+cholecystitis,pain
+cholecystitis,sinus
+cholecystitis,gasping for breath
+cholecystitis,constipation
+dependence,intoxication
+dependence,agitation
+dependence,suicidal
+dependence,homelessness
+dependence,lethargy
+dependence,seizure
+dependence,stuffy nose
+dependence,feeling hopeless
+dependence,heavy legs
+decubitus ulcer,pressure
+decubitus ulcer,fever
+hyperlipidemia,chest pain
+hyperlipidemia,palpitation
+hyperlipidemia,sweating
+hyperlipidemia,chest discomfort
+hyperlipidemia,shortness of breath
+hyperlipidemia,giddy
+hyperlipidemia,Swelling of organs
+hyperlipidemia,cramping
+hyperlipidemia,dizziness
+affect labile,extreme exhaustion
+affect labile,sleeplessness
+affect labile,feeling hopeless
+affect labile,hallucinations
+affect labile,crying
+upper respiratory infection,cough
+upper respiratory infection,throat sore
+upper respiratory infection,shortness of breath
+upper respiratory infection,fever
+upper respiratory infection,stuffy nose
+upper respiratory infection,non-cough
+upper respiratory infection,indifferent mood
+upper respiratory infection,barking cough
+upper respiratory infection,night sweating
+upper respiratory infection,cough
+upper respiratory infection,rapid shallow breathing
+upper respiratory infection,noisy respiration
+kidney disease,shortness of breath
+kidney disease,chest pain
+kidney disease,fever
+kidney disease,bleeding of vagina
+kidney disease,confusion
+kidney disease,drowsiness
+kidney disease,nausea
+kidney disease,seizures
+malignant neoplasm of breast,mass in breast
+malignant neoplasm of breast,burning sensation
+malignant neoplasm of breast,swelling
+malignant neoplasm of breast,skin irritation
+malignant neoplasm of breast,nipple discharge
+cellulitis,pain
+cellulitis,swelling
+cellulitis,redness
+cellulitis,fever
+cellulitis,chest pain
+cellulitis,scratch marks
+cellulitis,chill
+cellulitis,tenderness
+cellulitis,red spots
+cellulitis,sore to touch
+chronic obstructive airway disease,shortness of breath
+chronic obstructive airway disease,cough
+chronic obstructive airway disease,shotness of breath
+chronic obstructive airway disease,chest tightness
+aphasia,low back pain
+aphasia,unclear speech
+pericardial effusion body substance,shortness of breath
+pericardial effusion body substance,hypotension
+pericardial effusion body substance,pain
+pericardial effusion body substance,blackout
+pericardial effusion body substance,intoxication
+pericardial effusion body substance,cough
+pericardial effusion body substance,anxiety
+pericardial effusion body substance,Hhccoughs
+pericardial effusion body substance,light headedness
+influenza,uncoordination
+influenza,fever
+influenza,throat sore
+influenza,chill
+influenza,headache
+influenza,sneeze
+influenza,snore
+influenza,shortness of breath
+influenza,blackout
+influenza,extreme exhaustion
+pyelonephritis,fever
+pyelonephritis,pain
+pyelonephritis,vomiting
+pyelonephritis,chill
+pyelonephritis,nausea
+pyelonephritis,abdominal pain
+pyelonephritis,fever
+pyelonephritis,chill
+pyelonephritis,painful urination.
+pyelonephritis,dark urine
+glaucoma,agitation
+glaucoma,unconscious state
+glaucoma,burning sensation
+glaucoma,Severe eye pain
+glaucoma,nausea
+glaucoma,Blurred vision.
+hernia hiatal,abdominal pain
+hernia hiatal,vomiting
+hernia hiatal,nausea
+hernia hiatal,sore to touch
+hernia hiatal,discomfort
+hernia hiatal,numbness of hand
+hernia hiatal,headache
+hernia hiatal,heartburn
+hernia hiatal, swallowing
+oralcandidiasis,throat sore
+oralcandidiasis,decreased body weight
+oralcandidiasis,chill
+oralcandidiasis,headache
+oralcandidiasis,abdominal tenderness
+oralcandidiasis,night sweating
+oralcandidiasis,painful swallowing
+oralcandidiasis,non-cough
+oralcandidiasis,tonsils
+asthma,cough
+asthma,shortness of breath
+asthma,chest tightness
+asthma,cough
+asthma,chest tightness
+transient ischemic attack,neck stiffness
+transient ischemic attack,numbness
+transient ischemic attack,lightheadedness
+transient ischemic attack,blurry vision
+transient ischemic attack,headache
+bacteremia,fever
+bacteremia,chill
+bacteremia,flushing
+bacteremia,unresponsiveness
+bacteremia,vomiting
+bacteremia,abdominal tenderness
+bacteremia,fast heart rate
+bacteremia,confusion
+bacteremia,lightheaded
+bacteremia,severe sleepiness
+embolism pulmonary,shortness of breath
+embolism pulmonary,chest pain
+embolism pulmonary,neck stiffness
+embolism pulmonary,yellow sputum
+embolism pulmonary,cough
+embolism pulmonary,unresponsiveness
+embolism pulmonary,sweatinging
+embolism pulmonary,anxiety
+embolism pulmonary,fainting
+hyperbilirubinemia,cough
+hyperbilirubinemia,fever
+hyperbilirubinemia,abdominal pain
+hyperbilirubinemia,heartburn
+hyperbilirubinemia,loss of appetite
+diabetes,shortness of breath
+diabetes,chest pain
+diabetes,nausea
+diabetes,sweating
+diabetes,unresponsiveness
+diabetes,vomiting
+diabetes,increased thirst
+diabetes,extreme hunger
+diabetes,frequent urination
+gastroesophageal reflux disease,pain
+gastroesophageal reflux disease,chest pain
+gastroesophageal reflux disease,burning sensation
+gastroesophageal reflux disease,chest tightness
+gastroesophageal reflux disease,nausea
+gastroesophageal reflux disease,discomfort
+gastroesophageal reflux disease,constipation
+gastroesophageal reflux disease,palpitation
+gastroesophageal reflux disease,abdominal pain
+gastroesophageal reflux disease,heartburn
+gastroesophageal reflux disease,sweating
+hernia,abdominal pain
+hernia,pain
+hernia,excruciating pain
+hernia,nausea
+hernia,sore to touch
+hernia,vomiting
+hernia,cough
+hernia,pressure
+endocarditis,night sweating
+endocarditis,shortness of breath
+endocarditis,hypotension
+endocarditis,cough
+endocarditis,decreased body weight
+endocarditis,pale skin
+endocarditis,fever
+endocarditis,chills
+endocarditis,joint pain
+endocarditis,weight loss
+myocardial infarction,chest pain
+myocardial infarction,sweating
+myocardial infarction,shortness of breath
+myocardial infarction,pressure in chest
+myocardial infarction,chest tightness
+myocardial infarction,palpitation
+myocardial infarction,chest discomfort
+myocardial infarction,nausea
+myocardial infarction,anxiety
+myocardial infarction,cough
+neoplasm,chest pain
+neoplasm,pain
+neoplasm,decreased body weight
+neoplasm,night sweating
+neoplasm,abdominal pain
+neoplasm,headache
+neoplasm,anemia
+neoplasm,chills
+fibroid tumor,abortion
+fibroid tumor,shortness of breath
+fibroid tumor,fever
+fibroid tumor,heartburn
+fibroid tumor,increased urination
+fibroid tumor,menstrual cramps
+gastroenteritis,abdominal pain
+gastroenteritis,nausea
+gastroenteritis,decreased body weight
+gastroenteritis,sore to touch
+gastroenteritis,fever
+gastroenteritis,loss of appetite
+gastroenteritis,muscle aches
+gastroenteritis,decreased body weight
+spasm bronchial,shortness of breath
+spasm bronchial,pain
+spasm bronchial,cough
+spasm bronchial,throat sore
+spasm bronchial,chest tightness
+spasm bronchial,fever
+spasm bronchial,vomiting
+effusion pericardial,shortness of breath
+effusion pericardial,hypotension
+effusion pericardial,pain
+effusion pericardial,blackout
+effusion pericardial,chest pain
+effusion pericardial,pressure
+effusion pericardial,cough
+effusion pericardial,palpitations
+effusion pericardial,anxiety
+effusion pericardial,light headedness
+effusion pericardial,intoxication
+carcinoma breast,mass in breast
+carcinoma breast,burning sensation
+carcinoma breast,swelling
+carcinoma breast,nipple discharge
+carcinoma breast,itchy
+carcinoma breast,redness
+carcinoma breast,lumps
+carcinoma breast,discomfort
+hepatitis B,yellow sputum
+hepatitis B,abdominal pain
+hepatitis B,abdominal tenderness
+hepatitis B,dark urine
+hepatitis B,loss of appetite
+hepatitis B,jaundice
+suicide attempt,sleeplessness
+suicide attempt,suicidal
+suicide attempt,weepiness
+suicide attempt,unable to concentrate
+suicide attempt,worry
+suicide attempt,agitation
+suicide attempt,unresponsiveness
+suicide attempt,blackout
+suicide attempt,irritable mood
+suicide attempt,drowsiness
+suicide attempt,unconscious state
+suicide attempt,fever
+suicide attempt,cough
+diverticulitis,abdominal pain
+diverticulitis,dullness
+diverticulitis,pain
+diverticulitis,vomiting
+diverticulitis,sinus 
+diverticulitis,abdominal tenderness
+diverticulitis,fever
+diverticulitis,constipation
+anxiety state,worry
+anxiety state,feeling suicidal
+anxiety state,suicidal
+anxiety state,sleeplessness
+anxiety state,feeling hopeless
+anxiety state,irritable mood
+anxiety state,blackout
+anxiety state,weepiness
+anxiety state,nervousness
+anxiety state,hallucinations
+anxiety state,chest pain
+anxiety state,agitation
+anxiety state,palpitation
+anxiety state,depressed
+anxiety state,pain
+emphysema pulmonary,night sweating
+emphysema pulmonary,flushing
+emphysema pulmonary,painful swallowing
+emphysema pulmonary,choke
+emphysema pulmonary,constipation
+pneumonia,cough
+pneumonia,fever
+pneumonia,shortness of breath
+pneumonia,cough
+pneumonia,yellow sputum
+pneumonia,chill
+pneumonia,non-cough
+pneumonia,shotness of breath
+pneumonia,night sweating
+tachycardia sinus,sweating
+tachycardia sinus,pressure in chest
+tachycardia sinus,shortness of breath
+tachycardia sinus,vomiting
+tachycardia sinus,abdominal pain
+depressive disorder,feeling suicidal
+depressive disorder,suicidal
+depressive disorder,feeling hopeless
+depressive disorder,weepiness
+depressive disorder,sleeplessness
+depressive disorder,irritable mood
+depressive disorder,blackout
+depressive disorder,depressed
+depressive disorder,hallucinations
+depressive disorder,worry
+depressive disorder,agitation
+depressive disorder,intoxication
+depressive disorder,increased energy
+depressive disorder,unable to concentrate
+depressive disorder,homelessness
+manic disorder,increased energy
+manic disorder,suicidal
+manic disorder,hypersomnia
+manic disorder,feeling suicidal
+manic disorder,hallucinations
+manic disorder,feeling hopeless
+manic disorder,suicidal
+manic disorder,feeling suicidal
+obesity,pain
+obesity,snore
+obesity,chest pain
+obesity,shortness of breath
+obesity,tired
+obesity,overweight
+obesity,depressed mood
+malignant neoplasm of lung,cough
+malignant neoplasm of lung,shortness of breath
+malignant neoplasm of lung,ache
+malignant neoplasm of lung,night sweating
+malignant neoplasm of lung,agitation
+malignant neoplasm of lung,irritable mood
+septicemia,fever
+septicemia,hypotension
+septicemia,chill
+septicemia,lethargy
+septicemia,unresponsiveness

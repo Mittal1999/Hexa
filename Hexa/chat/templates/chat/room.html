@@ -20,8 +20,12 @@
             <div class="chatbot-message">
 
                 <div>
+                    <input type="button" name="Disease Prediction" value="Disease Prediction" id="run_dis">
                     <input type="button" name="First Aid" value="First Aid" id="run_first_aid">
                     <input type="button" name="BMI" value="BMI" id="run_bmi">
+                    <input type="button" name="WHR" value="WHR" id="run_whr">
+                    <input type="button" name="BMR" value="BMR" id="run_bmr">
+                    <input type="button" name="Calorie Counter" value="Calorie Counter" id="run_cal">
                 </div>
 
                 <input id="chat-message-input" type="text" size="100"/><br/>
@@ -119,6 +123,47 @@
         document.getElementById("chat-message-input").style.cssText ="visibility: visible;";
         document.getElementById("chat-message-submit").style.cssText ="visibility: visible;";
         var buttonAction = document.querySelector('#run_bmi');
+        button_message = buttonAction.value;
+        // document.getElementById("printHead").innerHTML += button_message;
+        var messageInputDom = document.querySelector('#chat-message-input');
+        var user_message = messageInputDom.value;
+        chatSocket.send(JSON.stringify({
+            'message': [user_message,button_message]
+        }));
+        messageInputDom.value = '';
+        // document.getElementById("same").innerHTML = ("<p class='user_input'>" +user_message+ "</p>");
+    };
+
+    document.querySelector('#run_dis').onclick = function(e) {
+        document.getElementById("chat-message-input").style.cssText ="visibility: visible;";
+        document.getElementById("chat-message-submit").style.cssText ="visibility: visible;";
+        var buttonAction = document.querySelector('#run_dis');
+        button_message = buttonAction.value;
+        // document.getElementById("printHead").innerHTML += button_message;
+        // document.getElementById("same").innerHTML = ("<p class='user_input'>" +user_message+ "</p>");
+    };
+
+    document.querySelector('#run_whr').onclick = function(e) {
+        count++;
+        document.getElementById("chat-message-input").style.cssText ="visibility: visible;";
+        document.getElementById("chat-message-submit").style.cssText ="visibility: visible;";
+        var buttonAction = document.querySelector('#run_whr');
+        button_message = buttonAction.value;
+        // document.getElementById("printHead").innerHTML += button_message;
+        var messageInputDom = document.querySelector('#chat-message-input');
+        var user_message = messageInputDom.value;
+        chatSocket.send(JSON.stringify({
+            'message': [user_message,button_message]
+        }));
+        messageInputDom.value = '';
+        // document.getElementById("same").innerHTML = ("<p class='user_input'>" +user_message+ "</p>");
+    };
+
+    document.querySelector('#run_bmr').onclick = function(e) {
+        count++;
+        document.getElementById("chat-message-input").style.cssText ="visibility: visible;";
+        document.getElementById("chat-message-submit").style.cssText ="visibility: visible;";
+        var buttonAction = document.querySelector('#run_bmr');
         button_message = buttonAction.value;
         // document.getElementById("printHead").innerHTML += button_message;
         var messageInputDom = document.querySelector('#chat-message-input');
